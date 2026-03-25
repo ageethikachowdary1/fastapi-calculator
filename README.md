@@ -29,6 +29,7 @@ The application allows users to perform basic arithmetic operations through a we
 
 ## Project Structure
 
+```
 fastapi-calculator/
 |-- main.py
 |-- operations.py
@@ -43,6 +44,7 @@ fastapi-calculator/
 |-- pytest.ini
 |-- .gitignore
 |-- README.md
+```
 
 ## Running the Application
 
@@ -93,3 +95,8 @@ All tests must pass.
 - Application working
 - All tests passing
 - CI successful
+
+
+## Reflection
+
+During this assignment, I learned how to build a web application using FastAPI and test it using unit, integration, and end-to-end testing. I also gained experience in implementing logging and setting up continuous integration using GitHub Actions. This helped me understand how to develop, test, and automate Python-based web applications.
