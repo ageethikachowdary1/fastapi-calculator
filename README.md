@@ -100,3 +100,41 @@ All tests must pass.
 ## Reflection
 
 During this assignment, I learned how to build a web application using FastAPI and test it using unit, integration, and end-to-end testing. I also gained experience in implementing logging and setting up continuous integration using GitHub Actions. This helped me understand how to develop, test, and automate Python-based web applications.
+
+
+## Module 9: Docker + PostgreSQL + pgAdmin Integration
+
+This project was extended using Docker Compose to include PostgreSQL and pgAdmin for database management.
+
+### Features Added
+
+- Dockerized FastAPI, PostgreSQL, and pgAdmin services  
+- Created database tables using SQL  
+- Inserted, queried, updated, and deleted data  
+- Implemented one-to-many relationship using foreign keys  
+- Executed queries using pgAdmin  
+
+### Docker Setup
+
+The application was started using:
+
+docker compose up --build
+
+pgAdmin was accessed at:
+
+http://localhost:5050
+
+### Database Operations
+
+The following SQL operations were performed:
+
+- CREATE TABLE (users, calculations)  
+- INSERT INTO (added sample records)  
+- SELECT (retrieved data)  
+- JOIN (combined users and calculations)  
+- UPDATE (modified existing record)  
+- DELETE (removed a record)  
+
+### Outcome
+
+This module demonstrates how a FastAPI application can be integrated with a PostgreSQL database using Docker, and how SQL is used to manage relational data.
